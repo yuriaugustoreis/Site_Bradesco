@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Fundação Bradesco - Site</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"> 
+</head>
+
+<body>
+    <div class="container-principal"> <!-- Da pra criar um HEADER dentro de uma DIV-->
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="logo_imagem"> <!-- "ALT" Para quando a imagem for quabrada (aparece na pagina)-->
+                </a>
+            </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id='banner'> 
+        <img src="banner.jpg" alt="banner-topo">
+    </section>
+
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" class="close">X</a>
+            <h1>Tudo sobre HTML</h1>
+            <p><strong>HTML</strong><i>(Abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto)</i> é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+            <img src="html5.png" alt="logo_html5">
+        </div>
+    </div>
+
+    <div id="openModal1" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h1>Tecnologia - Realidade Aumentada</h1>
+            <p>De forma simples, <b>Realidade Aumentada</b> é uma tecnologia que permite que o mundo virtual seja misturado ao real, possibilitando maior interação e abrindo uma nova dimensão na maneira como nós executamos tarefas, ou mesmo as que nós incubimos ás máquinas. Assim, se você pensava que os objetos pulando para fora eram elementos de filmes de ficção científica, está na hora de mudar seus conceitos. Aliás, o que acontece com a <b>Realidade Aumentada</b> é o contrário: Você pulará para dentro do mundo virtual para interagir com o objetos que só estão limitados á sua imaginação.</p>
+        </div>
+    </div>
+
+    <div id="openModal2" class="modalDialog">
+        <div>
+            <a href ="#close" title="Close" class="close">X</a>
+        <h1>Acessibilidade</h1>
+        <p><b>Acessibilidade</b> na web significa que as pessos com deficiência podem usar a web. Mais especificamente, a acessibilidade na web significa que as pessoas co deficiência podem perceber, entender, navegar, interagir e contribuir para a web. Ela também beneficia outras pessoas, incluindo pessoas idosas com capacidades em mudança devido ao envelhecimento. </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-text">
+            <h3>Tudo Sobre Html</h3>
+            <p>Saiba o que é Html, e como sua empresa pode usufruir de sites dinâmicos e funcionais. - <a href="#openModal">Clique Aqui</a>.</p>
+        </div>
+
+        <div class="footer-text">
+            <h3>Tecnologia</h3>
+            <p>Você sabe o que é uma realidade aumentada? Entenda como essa nova tecnologia funciona. - <a href="#openModal1">Clique Aqui</a>.</p>
+        </div>
+
+        <div class="footer-text">
+            <h3>Acessibilidade</h3>
+            <p>Torne se site acessível utilizando 5 dicas indispensáveis para qualquer site. - <a href="#openModal2">Clique Aqui</a>.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
